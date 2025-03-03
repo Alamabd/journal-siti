@@ -1,6 +1,48 @@
-/* Arya */
-.haeder {
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
 
+/* Arya */
+.header {
+    margin: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo svg {
+    width: 32px;
+}
+
+.header .logo span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.header nav button {
+    border: none;
+    background: transparent;
+    
+}
+
+.header nav .btn-login {
+    border: 2px solid #484848;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 30px;
+    border-radius: 5px;
+}
+
+.header nav button svg {
+    width: 25px ;
 }
 
 /* Ipan */
@@ -10,5 +52,9 @@
 
 /* Bagas */
 .footer {
+
+}
+
+.footer .tmbl-logout {
 
 }
