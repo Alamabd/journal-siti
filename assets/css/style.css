@@ -58,3 +58,45 @@ body {
 .footer .tmbl-logout {
 
 }
+
+
+.login {
+    width: 457px ;
+    border: 2px solid #484848;
+    margin: 0 auto;
+    padding: 24px;
+    border-radius: 10px;
+}
+
+.login h1 {
+    text-align: center;
+}
+
+
+.login .wrapper-inp {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.login .wrapper-inp input {
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+
+.login .wrapper-pas label {
+    font-size: 18px;
+}
+
+.login button {
+    padding:15px;
+    margin-top:40px;
+    background-color: #484848;
+    width: 100%;
+    color: white;
+    border: none;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    }
