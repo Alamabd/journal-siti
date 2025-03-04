@@ -47,16 +47,88 @@ body {
 
 /* Ipan */
 .main {
+    margin: 32px 24px 24px 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 90px;
+    
+}
 
+.main h1 {
+    font-size: 24px;
+}
+
+.main .items {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #eee;
+    gap: 30px;
+    width: 732px ;
+}
+
+.main .items .item-text {
+    line-height: 10px;
+}
+
+.main .items .date {
+    text-wrap: nowrap;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.main .items .item-text p {
+    line-height: 20px;
+}
+
+.main h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.main p {
+    font-size: 16px;
+}
+
+.main .right {
+    border: 2px solid #eee;
+    padding: 10px;
 }
 
 /* Bagas */
 .footer {
+    padding: 24px;
+    color: white;
+    background-color: black;
 
 }
 
-.footer .tmbl-logout {
+.footer .wrapper {
+    display: flex;
+    gap: 100px;
+}
 
+.footer .wrapper div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .wrapper p {
+    margin: 0;
+    width: 300px;
+    
+}
+
+.footer .wrapper div a {
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+
+}
+
+.footer span {
+    display: block;
+    text-align: center;
 }
 
 
