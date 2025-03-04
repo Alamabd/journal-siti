@@ -52,9 +52,36 @@ body {
 
 /* Bagas */
 .footer {
+    padding: 24px;
+    color: white;
+    background-color: black;
 
 }
 
-.footer .tmbl-logout {
+.footer .wrapper {
+    display: flex;
+    gap: 100px;
+}
 
+.footer .wrapper div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .wrapper p {
+    margin: 0;
+    width: 300px;
+    
+}
+
+.footer .wrapper div a {
+    display: inline-block;
+    color: white;
+    font-size: 13px;
+
+}
+
+.footer span {
+    display: block;
+    text-align: center;
 }
