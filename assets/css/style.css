@@ -47,7 +47,52 @@ body {
 
 /* Ipan */
 .main {
+    margin: 32px 24px 24px 24px;
+    display: flex;
+    align-items: flex-start;
+    gap: 90px;
+    
+}
 
+.main h1 {
+    font-size: 24px;
+}
+
+.main .items {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #eee;
+    gap: 30px;
+    width: 732px ;
+}
+
+.main .items .item-text {
+    line-height: 10px;
+}
+
+.main .items .date {
+    text-wrap: nowrap;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.main .items .item-text p {
+    line-height: 20px;
+}
+
+.main h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.main p {
+    font-size: 16px;
+}
+
+.main .right {
+    border: 2px solid #eee;
+    padding: 10px;
 }
 
 /* Bagas */
