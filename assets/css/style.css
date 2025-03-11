@@ -5,7 +5,7 @@ body {
     font-family: sans-serif;
 }
 
-/* Arya */
+/* Arya [header]*/
 .header {
     margin: 24px;
     display: flex;
@@ -62,7 +62,7 @@ body {
     width: 25px ;
 }
 
-/* Ipan */
+/* Ipan [main]*/
 .main {
     margin: 32px 24px 24px 24px;
     display: flex;
@@ -163,7 +163,7 @@ body {
     margin: 0 10px;
 }
 
-/* Bagas */
+/* Bagas [footer]*/
 .footer {
     padding: 24px;
     color: white;
@@ -200,6 +200,7 @@ body {
 }
 
 
+/* Arya [login] */
 .login {
     width: 457px ;
     border: 2px solid #484848;
